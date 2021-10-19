@@ -2979,3 +2979,20 @@ ol {
   color: var(--frist-color);
   background-color: #fff;
 }
+
+
+/* ------------- Feature List --------------- */
+
+.tutorial {
+  background-color: #f9f9f9;
+}
+
+.tutorial  {
+  margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .tutorial {
+    margin-bottom: 30px;
+  }
+}
